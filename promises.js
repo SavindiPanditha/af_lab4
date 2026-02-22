@@ -1,5 +1,5 @@
 // Promises
-const condition = true; // Change this to false to see the rejection case
+const condition = false; // Change this to false to see the rejection case
 
 const myPromise = new Promise((resolve, reject) => {
   if (condition) {
